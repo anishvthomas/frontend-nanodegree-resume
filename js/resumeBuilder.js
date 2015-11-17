@@ -1,6 +1,6 @@
 var bio={
 	"name":"Anish Thomas",
-	"role":"Manager",
+	"role":"Front-End Web Developer",
 	"contacts":{
 		"mobile":"650-888-0987",
 		"email":"anishvthomas@gmaildotcom",
@@ -10,7 +10,7 @@ var bio={
 	},
 	"pictureURL":"images/biopic.jpg",
 	"welcomeMessage":"Welcome to my interactive resume",
-	"skills":["Design","Testing","Requirement Analysis","Coding"]
+	"skills":["JavaScipt","jQuery","CSS","HTML","Knockout.js"]
 };
 bio.display=function(){
 	var formattedName=HTMLheaderName.replace("%data%",bio.name);
@@ -170,7 +170,7 @@ var education={"schools":[
 								"dates":"2012-12",
 								"url":"http://www.coursera.com/HCI"},
 
-								{"title":"Front End Developer",
+								{"title":"Front-End Web Developer Nanodegree",
 								"school":"Udacity",
 								"dates":"2015-15",
 								"url":"http://udacity.com/"}
